@@ -29,10 +29,21 @@ module.exports = {
 	],
 	theme: {
 		extend: {
+			colors: {
+				cBlue: '#07205F',
+				cBlack: '#000000',
+				cLightBlue: '#287DE4',
+				cGrey: '#F9FAFB',
+				cYellow: '#FFC600',
+				cText: '#344054',
+			},
+			backgroundImage: {
+				cGradient: 'linear-gradient(156deg, rgba(0, 0, 0, 0.40) 17.48%, rgba(0, 0, 0, 0.00) 117.22%)',
+			},
 			fontFamily: {
-				sans: ['var(--karla)', ...fontFamily.sans],
-				jetbrains: ['var(--jetbrains)', ...fontFamily.sans],
-				karla: ['var(--karla)', ...fontFamily.sans],
+				sans: ['var(--inter)', ...fontFamily.sans],
+				inter: ['var(--inter)', ...fontFamily.sans],
+				GTHaptik: ['var(--GTHaptik)', ...fontFamily.sans],
 			},
 			gridColumnStart: extraColumns,
 			gridColumnEnd: extraColumns,

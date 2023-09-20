@@ -3,36 +3,41 @@ import '../styles/global.css';
 import localFont from '@next/font/local';
 import type { AppProps } from 'next/app';
 
-const jetbrains = localFont({
+const GTHaptik = localFont({
 	src: [
 		{
-			path: '../../public/fonts/JetBrainsMono-Regular.woff2',
+			path: '../../public/fonts/GT-Haptik-Medium.woff2',
+			weight: '500',
+			style: 'normal',
+		},
+		{
+			path: '../../public/fonts/GT-Haptik-Regular-2.ttf',
 			weight: '400',
 			style: 'normal',
 		},
-		{
-			path: '../../public/fonts/JetBrainsMono-Bold.woff2',
-			weight: '700',
-			style: 'normal',
-		},
 	],
-	variable: '--jetbrains',
+	variable: '--GTHaptik',
 });
 
-const karla = localFont({
+const inter = localFont({
 	src: [
 		{
-			path: '../../public/fonts/Karla-Regular.woff2',
+			path: '../../public/fonts/Inter-Regular.ttf',
 			weight: '400',
 			style: 'normal',
 		},
+		{
+			path: '../../public/fonts/Inter-Bold.ttf',
+			weight: '600',
+			style: 'normal',
+		},
 	],
-	variable: '--karla',
+	variable: '--inter',
 });
 
 function MyApp({ Component, pageProps }: AppProps) {
 	return (
-		<div className={`${karla.variable} ${jetbrains.variable} font-karla`}>
+		<div className={`${inter.variable} ${GTHaptik.variable} font-inter`}>
 			<Component {...pageProps} />
 		</div>
 	);
