@@ -17,8 +17,9 @@ const Button: React.FC<ButtonType> = ({ variant, text, link }) => {
 					variant === 'light' ? 'bg-white border-cLightBlue border border-solid text-cBlue' : 'bg-cLightBlue text-white'
 				)}
 			>
-				<Link href="#contact" className={'whitespace-nowrap'}>{text}</Link>
-
+				<Link href="#contact" className={'whitespace-nowrap'}>
+					{text}
+				</Link>
 			</button>
 		</div>
 	);

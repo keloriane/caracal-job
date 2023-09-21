@@ -1,9 +1,9 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 import cardHeader from './../../../../public/images/cardHeader.png';
 import globe from './../../../../public/images/globe.png';
-import Link from "next/link";
 
 const Card = () => {
 	return (
@@ -14,7 +14,7 @@ const Card = () => {
 			<div className={'flex items-center'}>
 				<Image src={globe} alt={'globe'} />
 				<p className={'text-cLightBlue'}>Filtration</p>
-				<hr className={'w-[12px] h-[1px] block'}/>
+				<hr className={'w-[12px] h-[1px] block'} />
 				<p className={'text-[black] opacity-50'}>
 					26.5.2 <br />
 					022
@@ -24,12 +24,12 @@ const Card = () => {
 				<h5>At lacus porttitor orci cum eu lacus sit</h5>
 			</div>
 			<div>
-				<p>
-					How do you create compelling presentations that wow your colleagues and impress your managers?
-				</p>
+				<p>How do you create compelling presentations that wow your colleagues and impress your managers?</p>
 			</div>
 			<div className={'flex justify-end'}>
-				<Link className={'underline'} href="">Lire plus</Link>
+				<Link className={'underline'} href="">
+					Lire plus
+				</Link>
 			</div>
 		</div>
 	);

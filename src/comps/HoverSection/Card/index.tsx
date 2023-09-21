@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import Image, { StaticImageData } from 'next/image';
 import React from 'react';
-import {twMerge} from "tailwind-merge";
+import { twMerge } from 'tailwind-merge';
 
 export type CardType = {
 	ctaText: string;

@@ -2,10 +2,10 @@ import React from 'react';
 
 import AnimatedText from '../common/AnimatedText';
 import Button from '../common/Button';
+import CTA from '../common/CTA';
 import Col from '../Layout/Col';
 import Container from '../Layout/Container';
 import Counter from './Counter';
-import CTA from "../common/CTA";
 
 const Experience: React.FC = () => {
 	return (

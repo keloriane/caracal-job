@@ -1,10 +1,9 @@
 import Link from 'next/link';
 import React from 'react';
+import { twMerge } from 'tailwind-merge';
 
 import Col from '../../Layout/Col';
 import Container from '../../Layout/Container';
-import Button from "../Button";
-import {twMerge} from "tailwind-merge";
 
 const Menu: React.FC = () => {
 	const [isHovered, setIsHovered] = React.useState(false);
@@ -111,9 +110,9 @@ const Menu: React.FC = () => {
 								</svg>
 							</li>
 							<li>
-								<button className={twMerge('flex items-center justify-center py-[14px] px-[20px] text-[12px] uppercase rounded-full bg-cLightBlue text-white' )}>
+								<button className={twMerge('flex items-center justify-center py-[14px] px-[20px] text-[12px] uppercase rounded-full bg-cLightBlue text-white')}>
 									<Link href="#contact" className={'text-[10px]'}>
-										Besoin d'aide ?
+										{"Besoin d'aide ?"}
 									</Link>
 								</button>
 							</li>

@@ -33,7 +33,6 @@ const LayoutTor: React.FC = () => {
 						<hr className={'w-[80px] h-[4px] block bg-cLightBlue mb-[6px]'} />
 						<div>
 							<h4 className={' font-medium font-inter'}>Egestas gravida fringilla ipsum feugiat elementum odio sed. Et justo, tempus nisi elit, eu consectetur.</h4>
-
 						</div>
 						<div>
 							<p>
