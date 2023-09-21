@@ -5,7 +5,7 @@ import React from 'react';
 import Button from '../common/Button';
 import Col from '../Layout/Col';
 import Container from '../Layout/Container';
-import heroImage from './../../../public/images/hero.jpg';
+import heroImage from './../../../public/images/Hero.jpg';
 import timeline from './../../../public/images/timeline.svg';
 
 const Hero: React.FC = () => {
